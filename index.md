@@ -23,7 +23,7 @@ If you find errors, or have improvements to suggest, please send me an email at 
 
 #### **Blockchain basics**
 * Are blockchain and bitcoin the same thing?
-* [Who invented bitcoin/blockchain technology?](https://cryptochainery.github.io/blockchain-tutorials/who-is-the-inventor-of-bitcoin-blockchain-mystery/)
+* [Who invented bitcoin/blockchain technology?](https://cryptochainery.github.io/who-is-the-inventor-of-bitcoin-blockchain-mystery/)
 * What is blockchain technology?
 * What is a distributed digital ledger?
 * how does blockchain prevent double-spending?
