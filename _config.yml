@@ -1,14 +1,17 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
-description: > # this means to ignore newlines until "twitter_username:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: CryptoChainery # your site title
+author: VKR
+description: > # Meta description of Homepage
+  CryptoChainary aims at being a one-stop resource for blockchain and bitcoin technology. My goal 
+  is learn and help people learn about blockchain technology which can truly transform certain aspects of the industry
+  as we know it. I am always on the lookout for new and interesting applications of blockchain technology - 
+  so if you want to exchange ideas or simply get it touch, please send me an email and let's get talking. Thank you!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cryptochainery.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+email : cryptochainery@gmail.com
 
 # social links
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+# github_username:  jekyll
 rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -27,7 +30,7 @@ rss: rss
 #   instance: example.com
 
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
