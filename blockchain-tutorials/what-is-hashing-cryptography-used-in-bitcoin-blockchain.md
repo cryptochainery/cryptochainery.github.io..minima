@@ -40,6 +40,7 @@ input = cryptochainery     output = 0B8A51051650071F36D64ABC1DACB41FE52601B6E8B2
 input = cryptochaineryx    output = C8B79109CB23C3E218D8C37D0D787BD95362FA58DEBFE3145D4B469C3E00278F 
 ```
 
+## Quick summary of hashing
 Okay! That was a lot of information - so let's summarize it quickly before we forget:
 
 * the hashing function should produce an output/hash that has a fixed size. 
@@ -48,6 +49,7 @@ Okay! That was a lot of information - so let's summarize it quickly before we fo
 * the hash should be extremely hard to reverse-engineer (computationally speaking).
 * computing the hash should be computationally efficient. 
 
+## So how do we apply hashing to cryptocurrency?
 If you understand these fundamental properties of hashing, then you have the necessary knowledge to understand how hashing is used in blockchains and cryptocurrencies (bitcoin, altcoins). We will dive into this in another lesson, but I'll give you a sneak peek for now. Let's say a bitcoin transaction took place and the transaction details are the input and it is sent to the hashing function which produces a hash. This hash is easy to verify (hard but doable), but, you cannot guess the transaction details from just looking at the hash. This adds a level of security! But, I must tell you that this is just the tip of the iceberg - we need to study a little more about concepts like proof-of-work, double-spending, etc. to fully grasp the use of hashing in cryptocurrencies. 
 
 
