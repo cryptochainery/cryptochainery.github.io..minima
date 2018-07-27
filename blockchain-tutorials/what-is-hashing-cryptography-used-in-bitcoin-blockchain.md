@@ -1,8 +1,8 @@
 ---
 layout: page
-title: What is hashing in cryptography?
+title: What is cryptographic hashing and what are it's properties?
 permalink: /what-is-hashing-cryptography-used-in-bitcoin-blockchain/
-description: Hashing is fundamental to blockchains, bitcoins, and any cryptocurrency and in this lesson, we get a good understanding of how hashing works and what properties of hashing makes it attractive to blockchains and cryptocurrencies. 
+description: Hashing is fundamental to blockchains, bitcoins, and any cryptocurrency and in this lesson, we look at the basic properties of hashing and how these properties makes hashing attractive to blockchains and cryptocurrencies. 
 ---
 
 Cryptographic hashing is a fundamental concept that you should learn and understand to get a good grip on blockchain, bitcoin, or any cryptocurrency. Hashing is a vast field of research and you can find several college departments dedicated to research on cryptographic hashing. But, for the purposes of this tutorial, we will understand a few fundamentals that will help you get a grip on blockchain technology. Let's get started! 
@@ -41,14 +41,14 @@ input = cryptochaineryx    output = C8B79109CB23C3E218D8C37D0D787BD95362FA58DEBF
 ```
 
 Okay! That was a lot of information - so let's summarize it quickly before we forget:
-* the hash should have a fixed size. 
+
+* the hashing function should produce an output/hash that has a fixed size. 
 * you should not be able to guess the input by looking at the output (no recognizable patterns in the output hash).
 * no two inputs should give the same hash.
-* the hash should be sufficiently hard to reverse-engineer (computationally speaking).
+* the hash should be extremely hard to reverse-engineer (computationally speaking).
 * computing the hash should be computationally efficient. 
 
-In the context of cryptocurrencies like Bitcoin, the transactions are taken as an input and run through a hashing algorithm (Bitcoin uses SHA-256) which gives an output of a fixed length.
+If you understand these fundamental properties of hashing, then you have the necessary knowledge to understand how hashing is used in blockchains and cryptocurrencies (bitcoin, altcoins). We will dive into this in another lesson, but I'll give you a sneak peek for now. Let's say a bitcoin transaction took place and the transaction details are the input and it is sent to the hashing function which produces a hash. This hash is easy to verify (hard but doable), but, you cannot guess the transaction details from just looking at the hash. This adds a level of security! But, I must tell you that this is just the tip of the iceberg - we need to study a little more about concepts like proof-of-work, double-spending, etc. to fully grasp the use of hashing in cryptocurrencies. 
 
-Repeating this from Wikipedia: _A hash function is any function that can be used to map data of arbitrary size to data of a fixed size. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. A cryptographic hash function allows one to easily verify that some input data maps to a given hash value, but if the input data is unknown, it is deliberately difficult to reconstruct it (or any equivalent alternatives) by knowing the stored hash value._
 
 [<< Back to the tutorials homepage](https://cryptochainery.github.io/)
