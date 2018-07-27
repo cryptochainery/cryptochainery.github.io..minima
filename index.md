@@ -11,12 +11,17 @@ If you find errors, or have improvements to suggest, please send me an email at 
 
 #### **Cryptography basics**
 * [Hashing : what are its fundamental properties?](https://cryptochainery.github.io/what-is-hashing-cryptography-used-in-bitcoin-blockchain/)
-* A simple introduction to SHA-256
-* What is a cryptographic hash and a digital signature?
+
+Coming soon ... 
+* What is SHA-256?
+* How does a digital signature work (public and private key)?
+
 
 #### **Blockchain basics**
-* Are blockchain and bitcoin the same thing?
 * [Who invented bitcoin/blockchain technology?](https://cryptochainery.github.io/who-is-the-inventor-of-bitcoin-blockchain/)
+
+Coming soon ... 
+* Are blockchain and bitcoin the same thing?
 * What is blockchain technology?
 * What is a distributed digital ledger?
 * how does blockchain prevent double-spending?
