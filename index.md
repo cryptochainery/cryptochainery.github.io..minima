@@ -10,7 +10,7 @@ One of my main goals is to demystify blockchain, bitcoin, ethereum, and other cr
 If you find errors, or have improvements to suggest, please send me an email at cryptochainery_at_gmail.com. Thank you and good luck!
 
 #### **Cryptography basics**
-* [Hashing : what are its fundamental properties?]((https://cryptochainery.github.io/what-is-hashing-cryptography-used-in-bitcoin-blockchain/)
+* [Hashing : what are its fundamental properties?](https://cryptochainery.github.io/what-is-hashing-cryptography-used-in-bitcoin-blockchain/)
 * A simple introduction to SHA-256
 * What is a cryptographic hash and a digital signature?
 
