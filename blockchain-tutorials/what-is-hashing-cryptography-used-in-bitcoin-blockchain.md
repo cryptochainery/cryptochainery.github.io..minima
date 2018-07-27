@@ -22,7 +22,7 @@ With this example, I hope you understand what a hashing function does. Now, let 
 
 
 ## Fundamental properties of a hashing function
-So, let's say you decide to create your own hashing function and you want everyone to use it. There are some basic properties that your hashing function needs to satisfy in order for others to take it seriously. Let's take a look! 
+So, let's say you decide to create your own hashing function and you want everyone to use it. There are a few basic properties that your hashing function needs to satisfy in order for others to take it seriously. This is not an exhaustive list, but a few fundamental properties that should be satisfied. Let's take a look! 
 
 * **Deterministic**: what this means, is that if I provide a particular string (e.g., "cryptochainery") a zillion times to the hashing function, then every single time, the hashing function should return the exact same hash. All zillion outputs/hashes should be identical and this is called **deterministic**. There are some corner cases which you should be aware of. Some hashing functions might use the system time or memory address to create the hash of a string (i.e., in the hashing algorithm) - but both time and memory addresses are prone to change. In such a situation, if you run the hash function multiple times with the same input, you _**might**_ not get the same output hash. So, in this situation, the hash is deterministic for that session (period of time) only -- if you don't fully understand this, please don't worry. Just be aware that being deterministic is necessary for cryptocurrency (blockchain, bitcoin).
 
@@ -30,12 +30,11 @@ So, let's say you decide to create your own hashing function and you want everyo
 
 * **Not invertible**: This is sometimes also called the "**one-way requirement**". Simply put, if I cannot guess the input by looking at the output, then it is a non-invertible hash. In the worst case, it should require an impossible amount of computation to reverse-engineer or invert the hash. That is why it is also called the "one-way property".
 
-* **Fixed size / defined range**: It is desirable that the hash function create a hash of a known, fixed, pre-determined length. For example, the popular [SHA256](https://en.wikipedia.org/wiki/SHA-2) hash produces a 256-bit long hash. This is helpful in using it in table-lookups, etc. There is 
+* **Fixed size / defined range**: It is desirable that the hash function create a hash of a known, fixed, pre-determined length. For example, the popular [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash produces a 256-bit long hash. Random numbered outputs require extra work for verification and might not make sense for cryptocurrencies.
 
-* **Quick to compute**: this is an interesting property. To have a lot of people use your new hash function, it should be easy for them to compute - right? But, it should not be easy to reverse-engineer! 
+* **Quick to compute**: this is an interesting property. To have a lot of people use your new hash function, it should be easy for them to compute. It should not need a powerful computer to compute, but, it should be incredibly difficult to reverse-engineer! Being easy to compute is why cryptographic hashes find uses in common uses cases like digitally signing documents (and doesn't need any fancy hardware).
 
-* **Small changes to the input make large changes to the hash**: This is an intrinsic property that is connected to Uniformity, Not Invertible properties of the hash. If I change one character to the input (maybe change an "x" to a "y") and I see that only the last character of the output changed from "0" to "1", then that is a clue to a hacker. It is preferable that even the smallest change to the input makes a large change to the output. Here is an example from SHA-256. 
-
+* **Small changes to the input make large changes to the hash**: This is an intrinsic property that is connected to Uniformity, Not Invertible properties of the hash. If I change one character to the input (maybe change an "x" to a "y") and I see that only the last character of the output changed from "0" to "1", then that is a clue to a hacker. It is preferable that even the smallest change to the input makes a large change to the output. Here is an example from [SHA-256](https://en.wikipedia.org/wiki/SHA-2). You can see that by adding a single alphabet "x" to the input string "cryptochainery", the hash completely changes. This is a very important property as it makes the hash incredibly hard to hack. It prevents hackers from running random tests to detect patterns (e.g., if I add an "x" to the string, does the output always change predictably?).
 ```
 input = cryptochainery     output = 0B8A51051650071F36D64ABC1DACB41FE52601B6E8B2C89BFBDCA129FA1650EF
 input = cryptochaineryx    output = C8B79109CB23C3E218D8C37D0D787BD95362FA58DEBFE3145D4B469C3E00278F 
