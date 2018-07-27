@@ -2,8 +2,9 @@
 layout: page
 title: What is hashing in cryptography?
 permalink: /what-is-hashing-cryptography-used-in-bitcoin-blockchain/
-description: Who is the founder/inventor of bitcoin and blockchain technology? Who is Satoshi Nakamoto and what is the mystery surrounding him?
+description: Hashing is fundamental to blockchains, bitcoins, and any cryptocurrency and in this lesson, we get a good understanding of how hashing works and what properties of hashing makes it attractive to blockchains and cryptocurrencies. 
 ---
+
 Cryptographic hashing is a fundamental concept that you should learn and understand to get a good grip on blockchain, bitcoin, or any cryptocurrency. Hashing is a vast field of research and you can find several college departments dedicated to research on cryptographic hashing. But, for the purposes of this tutorial, we will understand a few fundamentals that will help you get a grip on blockchain technology. Let's get started! 
 
 ## Definition of Hashing 
@@ -56,3 +57,5 @@ In the context of cryptocurrencies like Bitcoin, the transactions are taken as a
 Repeating this from Wikipedia : _A hash function is any function that can be used to map data of arbitrary size to data of a fixed size. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. A cryptographic hash function allows one to easily verify that some input data maps to a given hash value, but if the input data is unknown, it is deliberately difficult to reconstruct it (or any equivalent alternatives) by knowing the stored hash value._
 
 That is a lot of information to digest - so let's break it down into small chunks. 
+
+[<< Back to the tutorials homepage](https://cryptochainery.github.io/)
