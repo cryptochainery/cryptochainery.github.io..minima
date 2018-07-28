@@ -2,7 +2,7 @@
 layout: tutorial
 title: What is public/private key cryptography with an example?
 permalink: /asymmetric-public-private-key-cryptography-with-example/
-description: Hashing is fundamental to blockchains, bitcoins, and any cryptocurrency and in this lesson, we look at the basic properties of hashing and how these properties makes hashing attractive to blockchains and cryptocurrencies. 
+description: Asymmetric (public-private-key encryption) is fundamental to the way our world operates and securing our communication, banking, email, etc. Let's learn more about it and how it differs from symmetric encryption. 
 ---
 Before we dive into symmetric/aymmetric cryptography or understanding whta public-private key cryptography is, let us first take a quick glance at the definition of cryptography. It is defined on Wikipedia as follows:
 
