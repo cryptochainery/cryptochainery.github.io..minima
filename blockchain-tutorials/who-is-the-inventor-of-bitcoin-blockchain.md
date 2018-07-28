@@ -22,4 +22,3 @@ If you search hard on Google, you'll find articles from investigative journalist
 ### So, what is Satoshi's biggest achievement?
 You know the cool part about all of this? Nobody knows the founder or blockchain/bitcoin or what his history is. This unknown person published one paper on the internet, the whole world lapped it up, and now his invention is creating waves throughout the world in a de-centralised way. That is the real take-away from this story - no matter who Satoshi Nakamoto is!
 
-[<< Back to the tutorials homepage](https://cryptochainery.github.io/)
