@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: What is cryptographic hashing and what are it's properties?
 permalink: /what-is-hashing-cryptography-used-in-bitcoin-blockchain/
 description: Hashing is fundamental to blockchains, bitcoins, and any cryptocurrency and in this lesson, we look at the basic properties of hashing and how these properties makes hashing attractive to blockchains and cryptocurrencies. 
@@ -57,4 +57,3 @@ Let's say a bitcoin transaction took place and the transaction details are store
 #### Appendix
 There are some corner cases which you should be aware of. Some hashing functions might use the system time or memory address to create the hash of a string (i.e., in the hashing algorithm) - but both time and memory addresses are prone to change. In such a situation, if you run the hash function multiple times with the same input, you _**might**_ not get the same output hash. So, in this situation, the hash is deterministic for that session (period of time) only -- if you don't fully understand this, please don't worry. Just be aware that being deterministic is necessary for cryptocurrency (blockchain, bitcoin).
 
-[<< Back to the tutorials homepage](https://cryptochainery.github.io/)
