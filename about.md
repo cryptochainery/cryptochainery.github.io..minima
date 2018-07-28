@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+CryptoChainary aims at being a one-stop resource for blockchain and bitcoin technology. My goal is learn and help people learn about blockchain technology which can truly transform certain aspects of the industry as we know it.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+About me: Simple guy who loves to learn new things. Now my sights are on blockchains and altcoins. I've worn the hats of an engineer, a grad student, R&D scientist, and now I am a product manager at a video startup.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I am always on the lookout for new and interesting applications of blockchain technology - so if you want to exchange ideas or simply get it touch, please send me an email at <a href="mailto:cryptochainery@gmail.com">cryptochainery@gmail.com</a> and let's get talking.
 
-
-[jekyll-organization]: https://github.com/jekyll
+Thank you!
