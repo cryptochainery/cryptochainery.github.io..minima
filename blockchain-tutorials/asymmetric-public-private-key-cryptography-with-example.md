@@ -13,10 +13,12 @@ Before we dive into symmetric/aymmetric cryptography or understanding whta publi
 
 What this says, is that cryptography is a science that deals with making communication safe and secure from people trying to eavesdrop or spy on the communication. You can imagine how crucial cryptography is to everything that we do in our daily lives - send emails, make phone calls, send text messages, log on to our online banking systems, make international money transfers, cyber-security, cyber-warfare, etc.
 
+### Symmetric cryptography
 There are two types of cryptography (that we will deal with in this tutorial) and they are symmetric and asymmetric cryptography. Note that we use the words cryptography and encryption inter-changably in this tutorial. 
 
 Let's take a simple example to understand symmetric encryption. Suppose I create a code language and write a message in it to my best friend and I give it to him. He won't be able to understand it until I give him the code - and this is the huge problem. Somebody might attack me while I am on the way to give him the code and then my code language is cracked/hacked and becomes useless. In symmetric encryption, both the sender and the receiver need to have the code for creating and reading the message and transmissing this information is a security threat! 
 
+### Asymmetric cryptography - the solution?
 How do we solve this? A simple but superb way is to create two codes - one for encoding and one for decoding (don't worry how - but just go along with the example). Now I give my best friend my encoding code and tell me to use that to send me a message. After I get his message, I can use my decoding code to read the message. Now - I can tell the whole world my encoding code and ask them to send me messages. Why? Because only I have the decoding code to read the messages - so my secrets are safe. Now if I have to write a message to my friend, then he has to create a pair of codes and give me his encoding code while he keeps his decoding code with him (safely!)
 
 Here is another example. Suppose I get a lock and give it to my friend but keep the key with me. I ask him to take a box, put a message in it, and lock it with this lock. This is a safe method, because only I have the key to the lock and only I can open the box. 
