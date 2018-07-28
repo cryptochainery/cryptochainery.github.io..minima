@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: Who is the inventor of bitcoin/blockchain?
 permalink: /who-is-the-inventor-of-bitcoin-blockchain/
 description: Who is the founder/inventor of bitcoin and blockchain technology? Who is Satoshi Nakamoto and what is the mystery surrounding him? 
