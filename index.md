@@ -20,13 +20,13 @@ Coming soon ...
 
 #### **Blockchain basics**
 * [Who invented bitcoin/blockchain technology?](https://cryptochainery.github.io/who-is-the-inventor-of-bitcoin-blockchain/)
+* [What is proof-of-work in blockchain?](https://cryptochainery.github.io/proof-of-work-explained-simply-blockchains/)
 
 Coming soon ... 
 * Are blockchain and bitcoin the same thing?
 * What is blockchain technology?
 * What is a distributed digital ledger?
 * how does blockchain prevent double-spending?
-* What is proof-of-work in blockchain?
 * What is proof-of-stake?
 * What is a timestamp and a timestamp server?
 * How does bitcoin/blockchain mining work and who is a miner?
